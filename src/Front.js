@@ -85,8 +85,9 @@ export default function Front() {
                 <input type="text" value={newDesc} placeholder="Enter Description Here" required onChange={(ev)=>{
                     setnewDesc(ev.target.value)
                 }} ></input>
+                
+                <h6>Note : If expense than give value in neagtive example(-50,-100) otherwise give value in positive  </h6>
                 <h4>Enter Amount </h4>
-                <h5>Note : If expense than give value in neagtive example(-50,-100) otherwise give value in positive  </h5>
                 <input type="number" value={newAmount} required onChange={(ev)=>{
                     setnewAmount(Number(ev.target.value));
                     // console.log(newAmount);
