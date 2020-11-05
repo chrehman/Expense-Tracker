@@ -56,9 +56,9 @@ export default function Front() {
             
             <div className="Expense-container">
             <h4>Income<br/>
-            {getIncome()}</h4>
+            ${getIncome()}</h4>
             <h4>Expense<br/>
-            {getExpense()}</h4>
+            ${getExpense()}</h4>
             
             </div>
             <h4>History</h4>
