@@ -1,0 +1,49 @@
+.container{
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px black;
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+.transactions{
+    /* background-color: white; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Expense-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 8px black;
+
+}
+.history-button {
+    padding: 10px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    background-color: white;
+    font-size: 1rem;
+    /* border: 1px solid black; */
+}
+/* .history-button >span{
+    display: flex ;
+    justify-content: space-between;
+} */
+
+h4{
+    margin: 0;
+    margin: 0.5rem 0;
+}
+
+input{
+width: 100%;
+}
+input[type="submit"]{
+  margin-top: 0.5rem;
+    
+}
