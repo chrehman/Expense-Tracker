@@ -50,7 +50,7 @@ export default function Front() {
     return (
         <div className="container">
 
-            <h1>Expense Tracker by ch arham shb</h1>
+            <h1>Expense Tracker</h1>
             <h3>Balance<br/>
             ${getIncome()+getExpense()}</h3>
             
